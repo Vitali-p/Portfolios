@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.vitali.portfolios.MainActivity"
+    android:id="@+id/res_menu"    >
+
+    <!--  -->
+    <item
+        android:id="@+id/menu_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        app:showAsAction="always"
+        android:title=""/>
+    <item
+        android:id="@+id/menu_add"
+        android:icon="@android:drawable/ic_menu_add"
+        app:showAsAction="ifRoom"
+        android:title="Add"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
+        app:showAsAction="never"
+        android:title="Network Settings"/>
+    <item
+        android:id="@+id/menu_help"
+        app:showAsAction="never"
+        android:title="Help"/>
+    <item
+        android:id="@+id/menu_end"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="never"
+        android:title="End"/>
+</menu>
